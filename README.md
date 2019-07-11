@@ -71,3 +71,8 @@ shell_script = "am start -a android.intent.action.VIEW -d 'market://details?id="
 
 device.shell(shell_script)
 ```
+
+# Demo
+
+![](https://i.imgur.com/F0S079y.gif)
+

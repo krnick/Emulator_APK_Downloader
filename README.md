@@ -4,13 +4,21 @@ Android Emulator Downloader via Python script
 
 # Android
 
-Clone the project
+1. Clone the project
 
 [Emulator_APK_Downloader](https://github.com/krnick/Emulator_APK_Downloader)
 
 ![](https://i.imgur.com/URAmo0w.png)
 
-Install the AVD and install it.
+2. Install the AVD and install it.
+
+3. Login to the Google Play store.
+
+4. Open APK_Downloader app and allow the permission of AccessibilityService.
+
+![](https://i.imgur.com/AYYkmRj.png)
+![](https://i.imgur.com/1p1VAWd.png)
+
 
 
 
@@ -37,6 +45,7 @@ Start Emulator without GUI
 ```shell=
 $ ./emulator -avd Pixel_API_26 -no-audio -no-window
 ```
+
 
 
 # Python adb
